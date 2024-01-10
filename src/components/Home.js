@@ -17,7 +17,7 @@ function Home() {
 {/* -------------------------------Content NavBar---------------------------------------------- */}
       <div>
         <Navbar className='nav ps-2 pe-1'>
-          <Navbar.Brand href="/home" className='ms-2 '>       
+          <Navbar.Brand href="/tech_talent_learn" className='ms-2 '>       
 <div className='nav-logo'>
 {isOpen?         
 <img style={{width:'100%',height:'4vh'}} alt='' src='https://i.postimg.cc/pXjJ6HPs/ttl-high-resolution-logo-white-transparent.png' />                   
