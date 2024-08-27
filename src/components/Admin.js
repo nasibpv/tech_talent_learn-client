@@ -152,7 +152,7 @@ function Admin() {
         const items = JSON.parse(localStorage.getItem('usertype'));
         if (!items) {
             // location('/')
-            location('/home')
+            location('/tech_talent_learn')
             // dispatch(staffAttendances())
         }
         // else{
