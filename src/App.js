@@ -32,7 +32,7 @@ function App() {
   return (
     <div className="App">
      <Routes>
-      <Route path='/tech_talent_learn' element={<Home/>}></Route>
+      {/* <Route path='/tech_talent_learn' element={<Home/>}></Route> */}
       <Route path='/login form' element={<Logins/>} ></Route>
       {/* <Route path='/' element={<Admin/>}>
         <Route path='' element={<Dashboard/>}></Route>
