@@ -33,7 +33,7 @@ function App() {
     <div className="App">
      <Routes>
       {/* <Route path='/tech_talent_learn' element={<Home/>}></Route> */}
-      <Route path='/login form' element={<Logins/>} ></Route>
+      <Route path='/https://tech-talent-learn-client.vercel.app/' element={<Logins/>} ></Route>
       {/* <Route path='/' element={<Admin/>}>
         <Route path='' element={<Dashboard/>}></Route>
         <Route path='/student' element={<Students/>}></Route>

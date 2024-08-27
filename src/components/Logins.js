@@ -19,7 +19,7 @@ function Logins() {
       password:psw
     }
     console.log(body);
-    const { data } = await axios.post('http://localhost:8000/loginForm',body)
+    const { data } = await axios.post('http://https://tech-talent-learn-client.vercel.app/loginForm',body)
     console.log(data);
     if(data.status){
       alert(data.message)
