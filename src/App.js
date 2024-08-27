@@ -34,7 +34,7 @@ function App() {
      <Routes>
       <Route path='/tech_talent_learn' element={<Home/>}></Route>
       <Route path='/login form' element={<Logins/>} ></Route>
-      <Route path='/' element={<Admin/>}>
+      {/* <Route path='/' element={<Admin/>}>
         <Route path='' element={<Dashboard/>}></Route>
         <Route path='/student' element={<Students/>}></Route>
         <Route path='/staff' element={<Staff/>}></Route>
@@ -58,7 +58,7 @@ function App() {
         <Route path='/batch' element={<Batch/>}></Route>
         <Route path='/addBatch' element={<AddBatch/>}></Route>
         <Route path='/editbatch/:id' element={<EditBatch/>}></Route>
-      </Route>
+      </Route> */}
       </Routes>
     </div>
   );
